@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Connexion | YAMO &copy</title>
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <link rel="shortcut icon" type="image/png" href="imgs/favicon.png">
+  <script src="https://kit.fontawesome.com/badb683268.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Staatliches"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+        <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a href="index.html"><img src="imgs/logo1.png" class="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+    </span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+<!------------------------------------------DROPDOWN--------------------------------------------------->
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="swimming.html">Swimming</a>
+          <a class="dropdown-item" href="basket-ball.html">Basket-Ball</a>
+          <a class="dropdown-item" href="tennis.html">Tennis</a>
+          <a class="dropdown-item" href="soccer.html">Soccer</a>
+          <a class="dropdown-item" href="martial-arts.html">Martial Arts</a>
+          <a class="dropdown-item" href="fitness.html">Fitness</a>
+        </div>
+      </li>
+<!------------------------------------------------------------------------------------------------------>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html #latest-products">News</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html #testimonials">About us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+</nav>  
+</section>
+
+<!---------- account page------------>
+
+<div class="account-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="imgs/image1.png" width="90%">
+      </div>    
+      <div class="col-2">
+        <div class="form-container">
+          <div class="form-btn">
+            <span onclick="login()">Login</span>
+            <span onclick="register()">Register</span>
+            <hr id="indicator">
+          </div>
+
+          <form id="LoginForm">
+            <input type="email" placeholder="email" id="email">
+            <input type="password" placeholder="password" id="password">
+            <button  class="btn1" onclick="signUp()" id="signUp">Login</button>
+            <a href="">Forgot Password</a>
+          </form>
+
+          <form id="RegForm" action="process1.php" method="post">
+            <input type="username" name="username" placeholder="Username">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit" class="btn1">Register</button>
+          </form>
+
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+
+<!---------------footer----------------->
+<div id="footer">
+<footer>
+  <div class="small-container">
+    <div class="row">
+    <div class="col-3">
+    <div class="left box">
+      <h2>About us</h2>
+      <div class="content">
+        <p>Yamo it's a website where our client can find all their needs in sports. what Makes us different from other website / company it's low price and quality of materials .Trust us</p>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="col-3">
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">France, Paris - Morocco, Rabat</span>
+            </div>
+
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+212 651499289</span>
+            </div>
+
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">yamo.ym.20@gmail.com</span>
+            </div>
+          </div>        
+        </div>
+      </div>
+
+
+
+      <div class="col-3">
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form action="process.php" method="post">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea rows="2" name="message" id="mesage" cols="25" required></textarea>
+              </div>
+                <input class="btn1" type="submit"name="submit" value="send &#8594;">
+              
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      </div>
+      </div>
+      <hr class="footer-hr">
+      <p class="copyright">Website created by YaMo &copy</p>
+</footer>
+</div>
+
+<!----------js for toggle Form---------->
+<script>
+  var LoginForm = document.getElementById("LoginForm");
+  var RegForm = document.getElementById("RegForm");
+  var indicator = document.getElementById("indicator");
+
+    function register(){
+      RegForm.style.transform = "translateX(0px)";
+      LoginForm.style.transform = "translateX(0px)";
+      indicator.style.transform = "translateX(40px)";
+
+    }
+
+    function login(){
+      RegForm.style.transform = "translateX(300px)";
+      LoginForm.style.transform = "translateX(300px)";
+      indicator.style.transform = "translateX(-50px)";
+    }
+</script>
+<!-------------------------------------->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
